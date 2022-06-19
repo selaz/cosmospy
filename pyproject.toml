@@ -28,7 +28,7 @@ dependencies = [
     "hdwallets >=0.1.0",
     "typing-extensions >=3.7.4; python_version < '3.8'",
     "protobuf >= 3.19.1",
-    "cosmospy_protobuf @ git+https://github.com/ctrl-Felix/cosmospy-protobuf.git@c09b1dfec84ee00d2b13aba10d18f6bd82712653"
+    "cosmospy_protobuf @ git+https://github.com/ctrl-Felix/cosmospy-protobuf.git@2fc03f761c2a8b0e48a2aa7eb5cfeb5e9a764cb6"
 ]
 
 [project.urls]
