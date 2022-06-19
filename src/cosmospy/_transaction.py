@@ -6,11 +6,11 @@ import hashlib
 import ecdsa
 
 from cosmospy._wallet import DEFAULT_BECH32_HRP, privkey_to_address, privkey_to_pubkey
-import cosmospy._interfaces.any_pb2 as Any
-import cosmospy._interfaces.coin_pb2 as coin
-import cosmospy._interfaces.msg_send_pb2 as transfer
-import cosmospy._interfaces.pubkey_pb2 as pubkey
-import cosmospy._interfaces.tx_pb2 as tx
+from google.protobuf import any_pb2 as Any
+import cosmospy_protobuf.cosmos.base.v1beta1.coin_pb2 as coin
+import cosmospy_protobuf.cosmos.bank.v1beta1.tx_pb2 as transfer
+import cosmospy_protobuf.cosmos.crypto.secp256k1.keys_pb2 as pubkey
+import cosmospy_protobuf.cosmos.tx.v1beta1.tx_pb2 as tx
 
 
 class Transaction:
